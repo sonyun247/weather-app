@@ -1,12 +1,16 @@
 import React from "react";
 import { StyleSheet, Text, View, StatusBar } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 
 function Loading() {
   return (
-    <View style={styles.container}>
+    <LinearGradient
+      colors={["#12c2e9", "#c471ed", "#f64f59"]}
+      style={styles.container}
+    >
       <StatusBar barStyle="dark-content" />
       <Text style={styles.text}>주변 둘러보는 중...</Text>
-    </View>
+    </LinearGradient>
   );
 }
 
@@ -19,7 +23,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FDF6AA",
   },
   text: {
-    color: "#2c2c2c",
+    color: "white",
     fontSize: 30,
   },
 });
