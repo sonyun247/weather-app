@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "weather-app",
-    "slug": "weather-app",
+    "name": "simple-weather-app",
+    "slug": "simple-weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "React Native ",
+    "githubUrl": "https://github.com/sonyun247/weather-app"
   }
 }
